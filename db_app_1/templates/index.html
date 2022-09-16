@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1> Visas sarašas:</h1>
+{% for item in vardas %}
+<p>{{item}}</p>
+{%endfor%}
+<form action="/login">
+    <p><input type="submit" value="Pirmyn"/></p>
+
+</form>
+
+{% endblock %}
